@@ -87,8 +87,8 @@ async fn aggregator_process(mut rx: mpsc::Receiver<SignedMessage>) {
     // Validate signatures and calculate the average
     let mut valid_averages = Vec::new();
     for signed_message in received_values {
-        // Implement signature validation logic here
-        // ...
+        
+        
 
         // For now, we assume all signatures are valid
         valid_averages.push(
