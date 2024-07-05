@@ -27,14 +27,15 @@ Usage
 The WebSocket client and aggregator application supports the following command-line options:
 
 
-Usage: ./simple --mode=cache OR ./simple --mode=read
+
+    Usage: ./simple --mode=cache OR ./simple --mode=read
 
 
 
 Options:
 
 
-  --mode=cache            Run in cache mode to fetch data from WebSocket server and calculate average prices.
+    --mode=cache            Run in cache mode to fetch data from WebSocket server and calculate average prices.
 
   
-  --mode=read             Run in read mode to read aggregated data from a file.
+    --mode=read             Run in read mode to read aggregated data from a file.
